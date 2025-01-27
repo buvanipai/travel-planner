@@ -3,7 +3,7 @@ from openai import OpenAI
 import time
 
 # Initialize the OpenAI client
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI()
 
 # System prompt for GPT
 SYSTEM_PROMPT = (
